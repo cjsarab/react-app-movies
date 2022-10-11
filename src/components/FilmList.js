@@ -11,8 +11,8 @@ const FilmList = ({films}) => {
 
     return (
         <>
-        <p>I'm a film list.</p>
-        {filmNodes}
+        <h1 class="title">List of Films:</h1>
+        <p class="list" >{filmNodes}</p>
         </>
     );
 };

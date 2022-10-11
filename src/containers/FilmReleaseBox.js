@@ -36,7 +36,7 @@ const FilmReleaseBox = () => {
 
         return (
             <>
-            <h1>This is my FilmReleaseBox</h1>
+            <h1 class="title">Film Release Box</h1>
             <FilmList films={films}/>
             <UpcomingReleases />
             </>
